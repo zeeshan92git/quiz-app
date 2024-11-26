@@ -114,7 +114,7 @@ export default function App() {
                     )}
                   </li>
                 ))}
-              <button className="quiz-review-button" onClick={() => reviewResult(false)}>Hide Result</button>
+              <button className="quiz-hide-button" onClick={() => reviewResult(false)}>Hide Result</button>
               </ul> 
             </div>
           }

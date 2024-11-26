@@ -58,6 +58,10 @@ body {
   gap: 10px; /* Space between options */
   justify-content: center;
 }
+.quiz-review li{
+  list-style-type: none;
+}
+
 .quiz-options li {
   color: black;
   padding: 10px 20px;
@@ -81,7 +85,8 @@ body {
 
 .quiz-restart-button,
 .quiz-review-button,
-.quiz-download-button {
+.quiz-download-button,
+.quiz-hide-button {
   background: linear-gradient(180deg, red, orange);
   color: black;
   border: none;
@@ -96,10 +101,14 @@ body {
 
 .quiz-restart-button:hover,
 .quiz-review-button:hover,
-.quiz-download-button:hover {
+.quiz-download-button:hover,
+.quiz-hide-button:hover {
   transform: scale(1.1);
 }
 
+.quiz-hide-button{
+  margin-top: 1em;
+}
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .app-header h1 {
