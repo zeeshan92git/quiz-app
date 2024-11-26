@@ -1,0 +1,109 @@
+/* quiz container*/
+/* General Container Styling */
+
+body{
+  background-color: black;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.quiz-container {
+  background: linear-gradient(180deg, red, yellow );
+  padding: 1.5em;
+  border-radius: 10px;
+  max-width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Section */
+
+.app-header{
+  display: block;
+  background-color: orange;
+  padding: 1em;
+  border-radius: 10px;
+  color: black;
+  max-width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.app-header h1{
+  font-size: 50px;
+}
+.app-header p{
+  font-size: 20px;
+}
+
+/* Question Container */
+.quiz-question-container  {
+  margin-top: 5px;
+  padding: 1em;
+  font-family: Arial , sans-serif;
+}
+
+.quiz-question {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Options List */
+.quiz-options {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row;
+  width: fit-content;
+}
+.quiz-review li{
+  list-style-type:none;
+  font-family: serif;
+  font-size: 17px;
+}
+.quiz-options li {
+  color: black;
+  padding: 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 50px;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  max-width: 300px;
+  text-align: center;
+}
+
+
+
+/* Next Button */
+
+.buttons , .result_buttons{
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  gap: 10px;
+  margin-top:20px ;
+}
+
+
+.quiz-restart-button, .quiz-review-button ,.quiz-download-button{
+  background: linear-gradient(180deg ,  red, orange );
+  color: black; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:  Times, serif;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease; 
+}
+
+.quiz-restart-button:hover, .quiz-review-button:hover ,.quiz-download-button:hover{
+  transform: scale(1.1); 
+}
+
+
+

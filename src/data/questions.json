@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "statement": "1. Which country's flag is shown in the image below?",
+      "image": "https://www.worldometers.info/img/flags/af-flag.gif",
+      "options": [
+        "1. Afghanistan",
+        "2. Australia",
+        "3. China",
+        "4. Canada"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": 2,
+      "statement": "2.Which country's flag is shown in the image below?",
+      "image": "https://www.worldometers.info/img/flags/in-flag.gif",
+      "options": [
+        "1. Australia",
+        "2. India",
+        "3. China",
+        "4. United States"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": 3,
+      "statement": "3.Which country's flag is shown in the image below?",
+      "image": "https://www.worldometers.info/img/flags/ch-flag.gif",
+      "options": [
+        "1. Russia",
+        "2. Japan",
+        "3. China",
+        "4. Germany"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": 4,
+      "statement": "4.Which country's flag is shown in the image below?",
+      "image": "https://www.worldometers.info/img/flags/bg-flag.gif",
+      "options": [
+        "1. Russia",
+        "2. Japan",
+        "3. China",
+        "4. Bangladesh"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": 5,
+      "statement": "5.Which country's flag is shown in the image below?",
+      "image": "https://www.worldometers.info/img/flags/pk-flag.gif",
+      "options": [
+        "1. Pakistan",
+        "2. Japan",
+        "3. China",
+        "4. Bangladesh"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+  
